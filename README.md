@@ -4,7 +4,7 @@
 2. check node version --> node -v
 3. check node package manager version --> npm -v
 4. Install mongodb from --> https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
-5. sudo sytemctl start mongod
+5. sudo systemctl start mongod
 6. sudo systemctl enable mongod
 7. mongosh
 8. test> show dbs
