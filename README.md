@@ -21,7 +21,7 @@
 19. npm list -g
 20. pm2 startup
 21. sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
-22. copy the output and make auto start of an node.js app even on reboot
+22. copy and execute the output and make auto start of an node.js app even on reboot
 23. mongosh
 24. test> showdbs
 25. test> use short-url
