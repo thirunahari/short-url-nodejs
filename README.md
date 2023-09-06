@@ -25,7 +25,7 @@
 23. mongosh
 24. test> show dbs
 25. test> use short-url
-26. test> show collections
+26. short-url> show collections
 27. exit
 28. sudo apt install nginx -y
 29. sudo systemctl enable nginx
