@@ -9,27 +9,26 @@
 7. mongosh
 8. test> show dbs
 9. test> exit
-10. 
+10. npm list
 11. Clone your project from Github --> git clone https://github.com/thirunahari/short-url-nodejs.git
 12. go to short-url-nodejs directory
 13. cd short-url-nodejs
 14. npm install
-15. sudo npm i pm2 -g
+15. sudo npm i pm2 -g\
+    npm list -g
+    pm2 list
 16. pm2 start index
-17. pm2 list
-18. npm list
-19. npm list -g
-20. pm2 startup
-21. sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
-22. copy and execute the output and make auto start of an node.js app even on reboot
-23. mongosh
-24. test> show dbs
-25. test> use short-url
-26. short-url> show collections
-27. exit
-28. sudo apt install nginx -y
-29. sudo systemctl enable nginx
-30. sudo vi /etc/nginx/sites-available/default
+17. pm2 startup
+18. sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+copy and execute the output and make auto start of an node.js app even on reboot
+mongosh
+test> show dbs
+test> use short-url
+short-url> show collections
+exit
+sudo apt install nginx -y
+sudo systemctl enable nginx
+sudo vi /etc/nginx/sites-available/default
 
 server_name yourdomain.com www.yourdomain.com;
 
