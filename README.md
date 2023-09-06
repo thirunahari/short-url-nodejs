@@ -30,6 +30,7 @@
 28. sudo apt install nginx -y
 29. sudo systemctl enable nginx
 30. sudo vi /etc/nginx/sites-available/default
+
 server_name yourdomain.com www.yourdomain.com;
 
 location / {
